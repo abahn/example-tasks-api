@@ -1,24 +1,24 @@
-# README
+# example-tasks-api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+1. Install Ruby (2.4.0) and Bundler Gem.
+2. Run Bundle command
 
-* Ruby version
+```
+$ bundle install
+```
 
-* System dependencies
+3. Setu up the database
 
-* Configuration
+```
+$ rake db:setup
+```
 
-* Database creation
+## Usage
 
-* Database initialization
+Start the rails server
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails server
+```
